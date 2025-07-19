@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    color: white;
+}
+.main-div{
+    background: linear-gradient(to bottom, black, #b3003c);
+    height: 100vh;
+    
+}
+.main-div span{
+    margin-left: 200px;
+}
+.navbar{
+    margin-right: 100px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 25px;
+    transition: 1s;
+}
+.navbar a:hover{
+    margin: 5px;
+    background-color: white;
+    color: #890027;
+}
+.main-content{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-text{
+    width: 500px;
+}
+.main-text #welcome{
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+.main-text h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.main-text #description{
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #f0f0f0;
+    transition: 0.5s;
+}
+#description:hover{
+    font-size: 18px;
+    margin: 15px;
+}
+#a-b{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+    border-radius: 30px;
+    font-weight: bold;    
+    transition-duration: 1s;
+}
+#a-b:hover{
+    background-color: #8d0129;
+    border: 1px solid #890027;
+    color: white;
+    width: 250px;
+    margin: 15px;
+}
+.main-image img{
+    width: 200px;
+    max-width: 100%;
+    transition: 1s;
+}
+.main-image img:hover{
+    width: 300px;
+}
